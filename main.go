@@ -182,7 +182,6 @@ if err != nil {
 }
 
 // Ensure that the connection is closed when the function returns
-defer db.Close()
  // Automigrate
  err = models.MigrateBooks(db)
  if err != nil {
