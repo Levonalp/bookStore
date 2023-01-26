@@ -8,7 +8,6 @@ import (
 	"github.com/gofiber/fiber/v2/middleware/cors"
 	"github.com/levonalp/go-fiber-postgres/models"
 	"github.com/levonalp/go-fiber-postgres/storage"
-	"github.com/gofiber/fiber/v2"
 	"github.com/joho/godotenv"
 	"gorm.io/gorm"
 )
