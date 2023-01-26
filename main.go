@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 	"os"
-
+	"fmt"
 	"github.com/gofiber/fiber/v2/middleware/cors"
 	"github.com/levonalp/go-fiber-postgres/models"
 	"github.com/levonalp/go-fiber-postgres/storage"
