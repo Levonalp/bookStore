@@ -1,1 +1,2 @@
 
+This code creates a web server using the Fiber framework and Postgres as the database. It imports packages for logging, http, os, fmt, and CORS middleware. It defines a Book struct with Author, Title, and Publisher fields. It then defines a Repository struct with a DB field. The code then defines functions for creating, deleting, getting books by ID, getting all books, and updating books. Finally it sets up routes for each of the functions and starts the server on port 8080.
